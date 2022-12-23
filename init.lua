@@ -4,8 +4,8 @@ local M = {
   plugin = {},
 }
 
-M.map = require("source.map")
-M.nvimset = require("source.nvimset")
-M.plugin = require("source.plugin")
+M.map = require("cute.map")
+M.nvimset = require("cute.nvimset")
+M.plugin = require("cute.plugin")
 
 return M
