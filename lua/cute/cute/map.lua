@@ -21,17 +21,17 @@ end
 
 M.normal = function(maps)
   for _, key in ipairs(maps) do
-    M.Keymap.set_normal(key[1], key[2], key[3])
+    M.set_normal(key[1], key[2], key[3])
   end
 end
 M.insert = function(maps)
   for _, key in ipairs(maps) do
-    M.Keymap.set_insert(key[1], key[2], key[3])
+    M.set_insert(key[1], key[2], key[3])
   end
 end
 M.modes = function(maps)
   for _, key in ipairs(maps) do
-    M.Keymap.set_modes(key[1], key[2], key[3])
+    M.set_modes(key[1], key[2], key[3])
   end
 end
 
